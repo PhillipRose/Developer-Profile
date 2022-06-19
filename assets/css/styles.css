@@ -1,0 +1,100 @@
+/* needs variables */
+:root {
+    /* --var1: ;
+    --var2: ; */
+}
+/* universal */
+* {
+    background-color: aquamarine;
+}
+/* viewable content  */
+body {
+   
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+nav ul {
+
+}
+
+nav li {
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+    font-size: 54px;
+    color: crimson;
+}
+
+.projectBig img {
+    filter: opacity(50%);
+    filter: grayscale(100%);
+    border: 10px orange dashed;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.projectBig img:hover{
+    filter: none;
+}
+
+.projectSmall {
+
+}
+
+
+#aboutSection {
+
+}
+
+#projectSection {
+
+}
+
+#contactSection {
+
+}
+/* opens in new tab/linkedin profile target _blank */
+#resume{
+
+}
+
+/* big screen display */
+/* @media screen and (max-width:992px) {
+    
+} */
+
+/* small laptop/tablet display */
+/* @media screen and (max-width: 768px) {
+    
+} */
+
+/* mobile screen size  */
+/* hamburger menu/squishing or stacking links? */
+
+/* @media screen and (max-width: 765px) {
+    
+} */
