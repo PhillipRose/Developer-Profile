@@ -8,11 +8,9 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
   </head>
   <body>
-    <section class="marginRight">
-      <aside class="sectionTitles"></aside>
-    </section>
-
-    <section>
+    <!-- top nav bar  -->
+    <section class="nav-bar">
+      <h1 class="main-title">Main title in top left in a colored box</h1>
       <nav>
         <ul>
           <li><a href="#aboutSection">About me</a></li>
@@ -22,27 +20,37 @@
         </ul>
       </nav>
     </section>
+    <!-- screen wide background image at the top -->
     <section class="main-img">
         <img src="" alt="simple background">
+        <h2>Sub-title inside of the background image in the lower right inside colored box.</h2>
     </section>
-    <section class="titles">
-        <section class="aboutName">
+    <!-- side bar titles for each section  -->
+    <!-- have a border on the right that spans the length of the text of the section.  -->
+    <section class="side-bar">
+      <section class="titles">
+          <section class="aboutName">
             <p>About Me Title</p>
-        </section>
-        <section class="projectName">
+          </section>
+          <section class="projectName">
             <h1>Work Title</h1>
-        </section>
-        <section class="contactName">
+          </section>
+          <section class="contactName">
             <h1>Contact Me Title</h1>
+          </section>
         </section>
     </section>
+    <!-- content for the about me section     -->
     <section id="aboutSection" class="aboutContent">
       <p >This is the about section</p>
       <br>
       <p>This needs to all have a line going to the left of it</p>
     </section>
-    <section id="projectSection">
-      <section class="projectBig">
+    <!-- content for the project section including all imgs with text overlay -->
+    <section class="project-big-container" id="projectSection">
+      <!-- single big project -->
+      <section class="project-big">
+        <p> This project needs a little box in the lower left with name and techs used.</p>
         <p>This is the big project area</p>
         <a href="https://github.com/" target="_blank">
             <img
@@ -52,16 +60,21 @@
              />
         </a>
       </section>
-        <section class="projectSmall">        
-          <p>small p 1</p>        
-          <p>small p 2</p>        
-          <p>small p 3</p>        
-          <p>small p 4</p>
-        </section>
+    </section>
+    <!-- 4 smaller projects in a 2x2 grid  -->
+    <section class="project-small-container">
+      <section class="project-small">    
+        <h3> all small projects need a name/techs box on the middle left of the image.</h3>    
+        <p>small p 1</p>        
+        <p>small p 2</p>        
+        <p>small p 3</p>        
+        <p>small p 4</p>
+      </section>
     </section>
     
-    <section id="contactSection">
-      <ul class="contactLinks">
+    <section class="contact-container" id="contact-section">
+      <ul class="contact-links">
+        <!-- tel allows for instant dialing on click/tap -->
         <li><a href="tel:555-555-5555">Fake number here</a></li>
         <li><a href="">email</a></li>
         <li><a href="">github profile</a></li>
